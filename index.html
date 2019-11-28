@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="illus1.svg" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700|Roboto:300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script>
+    <title>WebX</title>
+  </head>
+  <body>
+    <div class="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-content">
+        <div class="text-center w-100">
+          <div class="hero-date mb-2">
+            <span class="mx-3">
+              <i class="fa fa-calendar-o"></i>
+              Nov 28
+            </span>
+            <span class="mx-3">
+              <i class="fa fa-map-marker"></i>
+              KLCC, Malaysia
+            </span>
+          </div>
+          <h1 class="hero-title">WebX</h1>
+          <div class="hero-subtitle">
+            Massive conference about Web Development
+          </div>
+          <a
+            class="btn btn-danger btn-lg mt-5 mx-2"
+            href="#rsvp-form"
+            role="button"
+            >RSVP NOW</a
+          >
+          <a
+            class="btn btn-outline-danger btn-lg mt-5 mx-2"
+            href="#"
+            role="button"
+            >Learn more</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <section id="attendee-list">
+      <div class="container">
+        <div class="row mb-5 px-md-4">
+          <div class="col-md-6">
+            <img class="w-100" src="./illus1.svg" alt="illustration" />
+          </div>
+          <div
+            class="col-md-6 pt-5 pt-md-0 px-md-5"
+            style="align-self: center;"
+          >
+            <h3 class="title text-center">List of Attendees</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+              exercitationem id, facilis dolorem harum commodi enim illo,
+              laboriosam magnam itaque nam, doloremque eum assumenda aut ipsum
+              maxime tenetur libero. Voluptas?
+            </p>
+          </div>
+        </div>
+
+        <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Name</th>
+              <th scope="col">Email</th>
+              <th scope="col">Notes</th>
+            </tr>
+          </thead>
+          <tbody id="dom-entry">
+
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="rsvp-form">
+      <script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script>
+      <iframe
+        class="airtable-embed airtable-dynamic-height"
+        src="https://airtable.com/embed/shrx8VJcemgKPu1uJ?backgroundColor=green"
+        frameborder="0"
+        onmousewheel=""
+        width="100%"
+        height="817"
+        style="background: transparent; border: 1px solid #ccc;"
+      ></iframe>
+    </section>
+
+    <div class="footer">
+      <ul class="social-media-icons">
+        <li>
+          <a href="#"><span class="fa fa-twitter"></span></a>
+        </li>
+        <li>
+          <a href="#"><span class="fa fa-facebook"></span></a>
+        </li>
+        <li>
+          <a href="#"><span class="fa fa-github"></span></a>
+        </li>
+        <li>
+          <a href="#"><span class="fa fa-instagram"></span></a>
+        </li>
+      </ul>
+      <p class="footer-text">
+        <small>All&nbsp;Rights Reserved ©&nbsp;2020</small>
+      </p>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
